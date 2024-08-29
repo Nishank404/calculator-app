@@ -11,7 +11,7 @@ try{
 display.value=eval(display.value);
 }
 catch(error){
-    alert("gupta ticket booking system");
+    alert("danish bhai zinda hote to batata tujhe");
 }
 
 }
