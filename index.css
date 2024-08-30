@@ -1,60 +1,64 @@
 body{
-    background-color: hsl(0, 0%, 100%);
-    display: flex;
-    justify-content: center;
+    background-color: hsl(157, 100%, 86%);
+    
     align-items: center;
     margin:0;
     height: 100vh;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
-}
-#calculator{
-     background-color: black;
-     max-height: 700px;
-     max-width: 500px;
-     overflow: hidden;
-     border-radius: 25px;
-     border: 20;
-     border-color: blanchedalmond;
-     
-    
-    
-       
-}
-#box{
-    width: 93%;
-    padding: 20px;
-    font-size: 3rem;
-    border: none;
-    background-color: rgb(112, 112, 112);
-    text-align: left;
-    color: aliceblue;
-    font-weight: bold;
     
 }
 
+#txt{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 30px;
+    margin-top: 0px;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: hsl(225, 4%, 20%);
+}
+#carli{
+    display: flex;
+    justify-content: center;
+}
+#calculator{
+ 
+     background-color: black;
+     height: 500px;
+     width: 350px;
+     overflow: hidden;
+     border-radius: 25px;
+}
+#box{
+    width: 90%;
+    height: 15%;
+    padding: 20px;
+    font-size: 300%;
+    border: none;
+    background-color: rgb(71, 71, 71);
+    text-align: right;
+    font-weight: bold;
+    color:rgb(255, 255, 255)
+}
+
 button{
-    width: 90px;
-    height: 90px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
     border: none;
     background-color: hsl(0, 0%, 12%);
     color: white;
-    font-size: 2.3rem;
+    font-size: 1.5rem;
     font-weight: bold;
-    
-   
-    
 }
 #keys{
-    align-items: right;
+    align-items: left;
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    gap: 10px;
+    gap: 8px;
     padding: 20px;
-    
-    
-    
 }
 .int{
     background-color: hsl(29, 100%, 50%);
@@ -80,6 +84,4 @@ button{
 }
 :active.char{
     background-color: hsl(0, 0%, 22%);
-
-
 }
