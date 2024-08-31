@@ -11,7 +11,7 @@ try{
 display.value=eval(display.value);
 }
 catch(error){
-    alert("aarti didi ki jai ho");
+    alert("danish bhai zinda hote to btata");
 }
 
 }
